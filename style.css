@@ -1,0 +1,41 @@
+h1, h2 {
+    color: green;
+    text-decoration:solid;
+}
+user agent stylesheet
+h1 {
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    font-family:arial;
+    display: block;
+}
+body {
+    background-color: rgb(241, 241, 179);
+    color: green;
+    border:solid;
+    border-color:  rgb(255, 255, 151);
+    border-width: 10px;
+    border-radius: 20px;
+   
+}
+
+main{
+     unicode-bidi: isolate;
+}
+
+main,header{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    display: block;
+     border: rgb(255, 255, 151);
+     border-radius:10px;
+}
+
+header{
+     background-color: rgb(255, 255, 151);
+}
